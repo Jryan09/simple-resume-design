@@ -1,0 +1,78 @@
+* { 
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+div {color:aliceblue;}
+#video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+ width: 100vw; 
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+audio {
+
+  width: 100px;
+  height: 25px;
+margin-bottom: 0;
+  
+}
+.img1 {
+  width: 100px;
+  
+     z-index: 2;
+    margin:0;
+    }
+  table {
+    width: 25%;
+    height: auto;
+    background:rgba(5, 23, 42, 0.68);
+  color:aliceblue;
+margin-top: 15px;
+font-family: sans-serif;
+padding: 15px;
+border: 2px solid rgb(2, 11, 24);
+}
+.FNAME, .LNAME, .MNAME, .BDAY {width: 10%;}
+tr, td {
+   border:none;
+ }
+ td {
+  margin-bottom: 10px;
+
+}
+input {
+  width: 100%;
+  
+}
+input:focus{
+  background: yellowgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit{
+  padding: 10px;
+  width: 25%;
+  background: rgb(255, 88, 22);
+  transition-property: width;
+  transition-duration: 2s;
+}
+ .submit:hover {
+  background: greenyellow;
+  width: 100%;
+   }
+   h2 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-top: 0;
+    padding: 10px;
+   }
+   td {padding: 5px;}
+   .personinfo {padding:15px; 
+    border-bottom: 2px solid rgb(255, 88, 22);}
